@@ -10,7 +10,6 @@ session_start();
   <link rel="stylesheet" href="styles/index.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="js/loadData.js"></script>
-  <script src="scripts/script.js"></script>
 </head>
 
 <body>
@@ -102,6 +101,7 @@ session_start();
       <div class="rights">Все права защищены</div>
     </div>
   </footer>
+  <script src="scripts/script.js"></script>
 
 </body>
 

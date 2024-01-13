@@ -32,10 +32,25 @@ if ($result->num_rows > 0) {
     echo '<div>' . $row["year"] . '</div>';
     echo '</div>';
     echo '</div>';
+
+    echo '<div class="moreDetalilContainer" style="display:none" id="moreDetalilContainer'.$row['id'].'">';
+    echo '<p>Высота:' . $row["height"] . ' </p>';
+    echo '<p>Грузоподъемность:' . $row["liftingCapacity"] . ' </p>';
+    echo '<p>Длина:' . $row["length"] . ' </p>';
+    echo '<p>Длина грузового отсека(платформы):' . $row["compartmentLength"] . ' </p>';
+    echo '</div>';
     echo '<div class="car-item-action">';
     echo '<button onclick=\'window.location.href="#price"\' class="button car-button">Забронировать</button>';
     echo '</div>';
+    echo '<div class="moreDetailsButton" id="moreDetails'.$row['id'].'">Подробнее</div>';
     echo '</div>';
+    echo '<script>';
+    echo 'document.getElementById("moreDetails'.$row['id'].'").onclick = function () {';
+    echo 'console.log("sdfdf");';
+    echo 'document.getElementById("moreDetalilContainer'.$row['id'].'").style.display = document.getElementById("moreDetalilContainer'.$row['id'].'").style.display == "block" ? "none" : "block"';
+    echo '}';
+    echo '</script>';
+
   }
 } else {
   echo "<p>Ничего не обнаружено</p>";

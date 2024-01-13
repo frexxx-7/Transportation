@@ -255,6 +255,13 @@ body {
     color: #030305;
 }
 
-
-
+.moreDetailsButton:hover{
+  cursor: pointer;
+  color:blue;
+}
+.moreDetalilContainer>p{
+  font-size: 16px;
+  font-weight: 700;
+  text-align: left;
+}
 
