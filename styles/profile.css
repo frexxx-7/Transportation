@@ -1,0 +1,162 @@
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Robotobold.ttf");
+  font-weight: bold;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  color: #666;
+  text-align: center;
+}
+
+a, #uploadButton {
+  padding: 20px;
+  width: 400px;
+  height: 64px;
+  background: #030305;
+  border: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 20px auto;
+  text-decoration: none;
+}
+a:hover{
+  cursor: pointer;
+  background: #575757;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+input[type="submit"] {
+  width: 100%;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: #f44336;
+  cursor: pointer;
+}
+
+select,
+input[type="text"],
+input[type="file"] {
+  width: 100%;
+  height: 35px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  height: 35px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  background-color: #008CBA;
+  cursor: pointer;
+}
+
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+img {
+  width: 200px;
+  height: auto;
+}
+
+.add_info {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  a {
+    width: 150px;
+    height: 40px;
+  }
+
+  form {
+    width: 200px;
+  }
+
+  input[type="submit"],
+  button {
+    height: 25px;
+  }
+
+  select,
+  input[type="text"],
+  input[type="file"] {
+    height: 30px;
+  }
+
+  table {
+    width: 80%;
+  }
+
+  img {
+    width: 30px;
+  }
+}
+.profile-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

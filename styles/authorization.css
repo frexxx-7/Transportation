@@ -1,0 +1,144 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.login-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../images/background.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.login-main-container {
+  width: 1000px;
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Roboto.ttf");
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url("../fonts/Robotobold.ttf");
+  font-weight: bold;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-form {
+  padding: 22px 18px;
+  width: 50%;
+  height: 65px;
+  background: #FFFFFF;
+  border: 1px solid #5D5D5F;
+  box-sizing: border-box;
+  font-size: 16px;
+  color: #000000;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.back {
+  text-decoration: none;
+  color:blue;
+  font-weight: bold;
+}
+
+.back:hover {
+  color: red;
+}
+
+.authorization {
+  display: flex;
+  justify-content: center;
+}
+
+.registration {
+  display: none;
+  justify-content: center;
+}
+
+.registration-btn {
+  padding: 20px;
+  width: 334px;
+  height: 64px;
+  background: #030305;
+  border: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.registration-btn-auth {
+  padding: 20px;
+  width: 50%;
+  height: 64px;
+  background: #030305;
+  border: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.authorization-btn {
+  padding: 20px;
+  width: 334px;
+  height: 64px;
+  background: #030305;
+  border: 0;
+  box-sizing: border-box;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.registration-btn:hover {
+  cursor: pointer;
+  background: #575757;
+}
+
+.registration-btn-auth:hover {
+  cursor: pointer;
+  background: #575757;
+}
+
+.authorization-btn:hover {
+  cursor: pointer;
+  background: #575757;
+}
+.back-container{
+  width: 334px;
+  display: flex;
+}
